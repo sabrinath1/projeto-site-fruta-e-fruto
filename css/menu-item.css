@@ -1,0 +1,6 @@
+.menuItem {
+  list-style: none;
+}
+.menuItem:last-child .menuLink{
+  margin-right: 0;
+}
