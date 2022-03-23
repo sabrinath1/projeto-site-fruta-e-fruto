@@ -1,5 +1,14 @@
 .sobreDescricao {
     color: #595959;
-    font-size: 1.75rem;
     font-weight: 100;
 }
+@media screen and (min-width: 0){
+    .sobreDescricao {
+      font-size: 1.3rem;
+    }
+  }
+  @media screen and (min-width: 768px){
+    .sobreDescricao{
+      font-size: 1.75rem;
+    }
+  }
